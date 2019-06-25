@@ -8,11 +8,11 @@ public class Chance {
     }
 
     public Chance not() {
-        return new Chance(1 - fraction);
+        return new Chance(1 - this.fraction);
     }
 
     public Chance add(Chance other) {
-        return new Chance(fraction * other.fraction);
+        return new Chance(this.fraction * other.fraction);
     }
 
     public Chance or(Chance other) {
