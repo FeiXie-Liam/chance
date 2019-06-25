@@ -29,7 +29,7 @@ public class ChanceTest {
         //given
         //when
         //then
-        assertThat(diceChance.add(coinChance)).isEqualToComparingFieldByField(
+        assertThat(diceChance.and(coinChance)).isEqualToComparingFieldByField(
                         new Chance(0.333d * 0.5d));
     }
 
