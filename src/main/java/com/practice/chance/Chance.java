@@ -1,4 +1,4 @@
-package chance;
+package com.practice.chance;
 
 public class Chance {
     private Double fraction;

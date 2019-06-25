@@ -1,4 +1,4 @@
-package chance;
+package com.practice.chance;
 
 import org.junit.Before;
 import org.junit.Test;
